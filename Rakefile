@@ -12,12 +12,12 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "turing-contacts"
-  gem.homepage = "https://github.com/turingstudio/contacts"
+  gem.name = "kulesa-contacts"
+  gem.homepage = "https://github.com/kulesa/contacts"
   gem.license = "MIT"
   gem.summary = "Import users' contacts lists from Google, Yahoo!, and Windows Live."
   gem.description = "Import users' contacts lists from Google, Yahoo!, and Windows Live."
-  gem.email = "julian@turingstudio.com"
+  gem.email = "kulesa@gmail.com"
   gem.authors = ["Mislav Marohnić", "George Ogata", "Julian Coutu"]
 end
 

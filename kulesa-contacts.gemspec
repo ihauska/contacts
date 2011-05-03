@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{turing-contacts}
+  s.name = %q{kulesa-contacts}
   s.version = "0.2.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mislav Marohnić", "George Ogata", "Julian Coutu"]
   s.date = %q{2011-05-03}
   s.description = %q{Import users' contacts lists from Google, Yahoo!, and Windows Live.}
-  s.email = %q{julian@turingstudio.com}
+  s.email = %q{kulesa@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
     "README.markdown"
@@ -47,7 +47,7 @@ Gem::Specification.new do |s|
     "spec/yahoo/yahoo_spec.rb",
     "turing-contacts.gemspec"
   ]
-  s.homepage = %q{https://github.com/turingstudio/contacts}
+  s.homepage = %q{https://github.com/kulesa/contacts}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.7.2}
