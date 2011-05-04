@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mislav Marohnić", "George Ogata", "Julian Coutu"]
-  s.date = %q{2011-05-03}
+  s.date = %q{2011-05-04}
   s.description = %q{Import users' contacts lists from Google, Yahoo!, and Windows Live.}
   s.email = %q{kulesa@gmail.com}
   s.extra_rdoc_files = [
@@ -24,16 +24,17 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION",
+    "kulesa-contacts.gemspec",
     "lib/contacts.rb",
     "lib/contacts/consumer.rb",
     "lib/contacts/google.rb",
     "lib/contacts/oauth_consumer.rb",
+    "lib/contacts/railtie.rb",
     "lib/contacts/util.rb",
     "lib/contacts/version.rb",
     "lib/contacts/windows_live.rb",
     "lib/contacts/yahoo.rb",
     "patch-contacts.gemspec",
-    "rails/init.rb",
     "spec/config/contacts.yml",
     "spec/contact_spec.rb",
     "spec/feeds/google-many.xml",

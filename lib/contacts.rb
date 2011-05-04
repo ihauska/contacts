@@ -1,6 +1,10 @@
 require 'uri'
 require 'contacts/version'
 
+if defined?(Rails)
+  require "contacts/railtie"
+end
+
 module Contacts
 
   Identifier = 'Ruby Contacts v' + VERSION::STRING
