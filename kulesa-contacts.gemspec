@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.version = "0.2.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Mislav Marohnić", "George Ogata", "Julian Coutu"]
-  s.date = %q{2011-05-04}
+  s.authors = ["Mislav Marohnic", "George Ogata", "Julian Coutu"]
+  s.date = %q{2011-06-03}
   s.description = %q{Import users' contacts lists from Google, Yahoo!, and Windows Live.}
   s.email = %q{kulesa@gmail.com}
   s.extra_rdoc_files = [
@@ -51,7 +51,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{https://github.com/kulesa/contacts}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.7.2}
+  s.rubygems_version = %q{1.6.2}
   s.summary = %q{Import users' contacts lists from Google, Yahoo!, and Windows Live.}
   s.test_files = [
     "spec/contact_spec.rb",
