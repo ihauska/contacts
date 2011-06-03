@@ -1,4 +1,3 @@
-# encoding: utf-8
 require 'rubygems'
 require 'bundler'
 begin
@@ -19,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = "Import users' contacts lists from Google, Yahoo!, and Windows Live."
   gem.description = "Import users' contacts lists from Google, Yahoo!, and Windows Live."
   gem.email = "kulesa@gmail.com"
-  gem.authors = ["Mislav Marohnic", "George Ogata", "Julian Coutu"]
+  gem.authors = ["Mislav Marohnic", "George Odata", "Julian Countu"]
 end
 
 Jeweler::RubygemsDotOrgTasks.new

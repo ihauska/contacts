@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version = "0.2.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Mislav Marohnic", "George Ogata", "Julian Coutu"]
+  s.authors = ["Mislav Marohnic", "George Odata", "Julian Countu"]
   s.date = %q{2011-06-03}
   s.description = %q{Import users' contacts lists from Google, Yahoo!, and Windows Live.}
   s.email = %q{kulesa@gmail.com}
@@ -34,7 +34,6 @@ Gem::Specification.new do |s|
     "lib/contacts/version.rb",
     "lib/contacts/windows_live.rb",
     "lib/contacts/yahoo.rb",
-    "patch-contacts.gemspec",
     "spec/config/contacts.yml",
     "spec/contact_spec.rb",
     "spec/feeds/google-many.xml",
@@ -45,8 +44,7 @@ Gem::Specification.new do |s|
     "spec/spec.opts",
     "spec/spec_helper.rb",
     "spec/windows_live/windows_live_spec.rb",
-    "spec/yahoo/yahoo_spec.rb",
-    "turing-contacts.gemspec"
+    "spec/yahoo/yahoo_spec.rb"
   ]
   s.homepage = %q{https://github.com/kulesa/contacts}
   s.licenses = ["MIT"]
