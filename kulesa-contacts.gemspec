@@ -34,6 +34,7 @@ Gem::Specification.new do |s|
     "lib/contacts/version.rb",
     "lib/contacts/windows_live.rb",
     "lib/contacts/yahoo.rb",
+    "pkg/kulesa-contacts-0.2.6.gem",
     "spec/config/contacts.yml",
     "spec/contact_spec.rb",
     "spec/feeds/google-many.xml",
