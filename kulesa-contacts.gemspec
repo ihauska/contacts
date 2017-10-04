@@ -5,7 +5,7 @@
 # stub: kulesa-contacts 0.3.0 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "kulesa-contacts"
+  s.name = "erc-contacts"
   s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
