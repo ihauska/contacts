@@ -1,15 +1,13 @@
 source "http://rubygems.org"
 gem "httparty"
 gem "hpricot"
-gem "nokogiri", "~> 1.5.0"
+gem "nokogiri", "~> 1.8.1"
 gem "oauth", "~> 0.4.5"
-gem "json"
+gem "oj", "~> 3.0"
 
 group :development do
-  gem "rspec", "~> 2.6.0"
-  gem "bundler", "~> 1.0.0"
-  gem "jeweler", "~> 1.6.4"
-  gem "rcov", ">= 0"
+  gem "rspec", "~> 3.6.0"
+  gem "jeweler", "~> 2.3.7"
   gem "mocha"
   gem "fakeweb"
 end

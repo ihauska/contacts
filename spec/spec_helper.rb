@@ -2,9 +2,10 @@ require 'fake_web'
 
 FakeWeb.allow_net_connect = false
 
-RSpec.configure do |config| 
+RSpec.configure do |c|
+  c.run_all_when_everything_filtered = true
 end
-
+p
 def fake_responses
   FakeWeb.register_uri(:post, 'https://www.google.com/accounts/OAuthGetRequestToken', :body => 'oauth_token=faketoken&oauth_token_secret=faketokensecret')
   FakeWeb.register_uri(:post, 'https://www.google.com/accounts/OAuthGetAccessToken', :body => 'oauth_token=fake&oauth_token_secret=fake')

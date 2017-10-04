@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "kulesa-contacts"
-  s.version = "0.2.7"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mislav Marohnic", "George Odata", "Julian Countu"]
@@ -41,7 +41,6 @@ Gem::Specification.new do |s|
     "spec/feeds/wl_contacts.xml",
     "spec/feeds/yh_contacts.txt",
     "spec/gmail/google_spec.rb",
-    "spec/rcov.opts",
     "spec/spec.opts",
     "spec/spec_helper.rb",
     "spec/windows_live/windows_live_spec.rb",
@@ -50,7 +49,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/kulesa/contacts"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.10"
+  s.rubygems_version = "2.5.1"
   s.summary = "Import users' contacts lists from Google, Yahoo!, and Windows Live."
 
   if s.respond_to? :specification_version then
