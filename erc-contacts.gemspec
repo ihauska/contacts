@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION",
-    "kulesa-contacts.gemspec",
+    "erc-contacts.gemspec",
     "lib/contacts.rb",
     "lib/contacts/consumer.rb",
     "lib/contacts/google.rb",
