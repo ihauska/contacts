@@ -89,7 +89,7 @@ DEPENDENCIES
   mocha
   nokogiri (~> 1.10.7)
   oauth (~> 0.4.5)
-  oj (3.3.7)
+  oj (= 3.3.7)
   rspec (~> 3.6.0)
 
 BUNDLED WITH
